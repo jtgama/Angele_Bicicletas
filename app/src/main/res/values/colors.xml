@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1d1f2d</color>
+    <color name="colorPrimaryDark">#15161e</color>
+    <color name="colorAccent">#189be7</color>
+
+    <color name="colorPrimaryDark2">#106991</color>
+    <color name="colorPrimary2">#D9E6EC</color>
+    <color name="colorsuccess">#7ACF7E</color>
+
+    <color name="azul">#2196F3</color>
+    <color name="verde">#49F550</color>
+
+    <color name="blanco">#E4E4F0</color>
+    <color name="morado">#E040FB</color>
+
+    <array name="vectorcol">
+
+
+
+        <item>@color/verde</item>
+        <item>@color/blanco</item>
+        <item>@color/morado</item>
+
+
+    </array>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#60CBDF</color>
+    <color name="gradStop">#23A7DB</color>
+
+</resources>

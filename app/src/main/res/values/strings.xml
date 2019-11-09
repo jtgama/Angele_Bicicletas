@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mis Angeles</string>
+    <string name="to_do">To Do</string>
+    <string name="an_gel">AnGel</string>
+    <string name="co_rreo">Correo</string>
+    <string name="ing_ange">Ingrese Angel</string>
+    <string name="ingre_corr">Ingrese Correo</string>
+    <string name="guardar">Guardar</string>
+    <string name="ingre_tele">Ingrese Telefono</string>
+    <string name="tiempo">13 Octubre 2019</string>
+    <string name="idangel">id_angel</string>
+    <string name="Editar">editar</string>
+    <string name="Eliminar">eliminar</string>
+    <string name="Actulizar">actualizar</string>
+    <string name="agregaA">Agregar Angeles</string>
+    <string name="app_name1">Angeles Bicicletas</string>
+    <string name="app_name2">Registrar Usuario</string>
+</resources>

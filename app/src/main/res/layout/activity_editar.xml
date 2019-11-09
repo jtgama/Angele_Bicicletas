@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.editor.EditarActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/nombreAg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:textSize="15sp"
+            android:hint="@string/ing_ange"/>
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_below="@id/nombreAg"
+            android:hint="@string/ingre_corr"
+            android:inputType="textEmailAddress"
+            android:minLines="6"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:gravity="top|start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+        <EditText
+            android:id="@+id/telefono"
+            android:layout_below="@id/correo"
+            android:hint="@string/ingre_tele"
+            android:inputType="number"
+            android:minLines="6"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:gravity="top|start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill" />
+
+        <com.thebluealliance.spectrum.SpectrumPalette
+            android:id="@+id/paletadecolores"
+            android:layout_below="@id/telefono"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:spectrum_colors="@array/vectorcol">
+        </com.thebluealliance.spectrum.SpectrumPalette>
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

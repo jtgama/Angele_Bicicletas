@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="80dp"
+    android:background="@color/colorPrimary2"
+    tools:context=".activity.editor.RegistroActivity">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/nombre"
+            android:hint="Nombre"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_users"
+            android:drawableStart="@drawable/ic_users"
+            android:drawablePadding="7dp"
+            android:textColor="@color/colorPrimary"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/correo"
+            android:hint="Correo"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="7dp"
+            android:textColor="@color/colorPrimary"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/telefo"
+            android:hint="Telefono"
+            android:textColor="@color/colorPrimary"
+            android:inputType="number"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        >
+        <EditText
+            android:id="@+id/contra1"
+            android:hint="Contraseña"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_llave"
+            android:drawableStart="@drawable/ic_llave"
+            android:drawablePadding="7dp"
+            android:textColor="@color/colorPrimary"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        >
+        <EditText
+            android:id="@+id/contra2"
+            android:hint="Confirme Contraseña"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_llave"
+            android:drawableStart="@drawable/ic_llave"
+            android:drawablePadding="7dp"
+            android:textColor="@color/colorPrimary"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/Resgitrar"
+        android:backgroundTint="@color/azul"
+        android:textColor="@color/white"
+        android:text="Registrar"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+</LinearLayout>

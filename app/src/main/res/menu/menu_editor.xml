@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/editar"
+        android:title="@string/Editar"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/eliminar"
+        android:title="@string/Eliminar"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/actuli"
+        android:title="@string/Actulizar"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/guarda"
+        android:title="@string/guardar"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="always">
+
+    </item>
+</menu>

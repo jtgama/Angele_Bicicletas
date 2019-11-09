@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/grad_bg"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="80dp"
+    tools:context=".activity.editor.LoginActivity">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+
+        android:src="@drawable/ruta"/>
+    <ImageView
+        android:id="@+id/ima_logo1"
+        android:layout_below="@id/logo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        android:src="@drawable/bicycle"/>
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_below="@id/ima_logo1"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+
+
+
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layocorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:id="@+id/correo1"
+                android:hint="Correo"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layocontra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:layout_below="@id/layocorreo">
+            <EditText
+                android:id="@+id/contrase"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/aceptar"
+            android:layout_below="@id/layocontra"
+            android:backgroundTint="@color/colorsuccess"
+            android:layout_marginTop="30dp"
+            android:text="Iniciar Session"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+            android:textColor="@color/colorPrimary" />
+
+    <RelativeLayout
+        android:id="@+id/rela2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+       >
+        <Button
+            android:id="@+id/regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/transparent"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif"
+            android:text="Regístrate"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/olvid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/transparent"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="¿Olvidó su Contraseña?"/>
+
+    </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
