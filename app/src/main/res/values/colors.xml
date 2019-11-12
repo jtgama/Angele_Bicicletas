@@ -13,7 +13,8 @@
 
     <color name="blanco">#E4E4F0</color>
     <color name="morado">#E040FB</color>
-
+    <color name="faceColor">#3E9EEC</color>
+    <color name="angel">#FFFFFF</color>
     <array name="vectorcol">
 
 
