@@ -113,6 +113,9 @@ public class LoginActivity extends AppCompatActivity implements EditarView {
     public void onRequestSuccess(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
         startActivity(new Intent(LoginActivity.this,PrincipalActivity.class));
+        setResult(RESULT_OK);
+        finish();
+
 
     }
 

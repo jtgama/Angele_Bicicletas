@@ -3,7 +3,9 @@ package angelbike.proyectointe.angelbikes11.activity.editor;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -73,6 +75,7 @@ public class RegistroActivity extends AppCompatActivity  implements EditarView{
             if(!TextUtils.isEmpty(contrase) && !TextUtils.isEmpty(contrase1)){
                 if (contrase.equals(contrase1)){
                     presentera.guardar_registro(nomb,correov,contrase,tele);
+                    startActivity(new Intent(RegistroActivity.this, LoginActivity.class));
                 }
                 else{
                     Toast.makeText(this, "La Contrraseña no Coinciden", Toast.LENGTH_SHORT).show();
